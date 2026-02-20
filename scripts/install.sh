@@ -42,7 +42,7 @@ mkdir -p ~/Desktop/github/
 
 printf "> Cloning setup repository...\n"
 cd ~/Desktop/github/
-git clone https://github.com/marcosnevary/setup.git
+git clone https://github.com/marcosnevary/my-setup.git
 
 printf "> Linking dotfiles...\n"
 cd setup/config
