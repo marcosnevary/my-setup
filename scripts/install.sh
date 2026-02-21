@@ -48,6 +48,6 @@ git clone https://github.com/marcosnevary/my-setup.git
 
 printf "> Linking dotfiles...\n"
 cd my-setup/config
-stow zsh kitty nvim aerospace yazi
+stow -t ~ zsh kitty nvim aerospace yazi
 
 printf "> Setup complete. Please restart Kitty.\n"
